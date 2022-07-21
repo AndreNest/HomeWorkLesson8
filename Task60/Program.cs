@@ -1,6 +1,6 @@
 ﻿// Задача 60. Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. 
 // Напишите программу, которая будет построчно выводить массив, добавляя индексы каждого элемента.
-
+Console.Clear();
 Console.WriteLine("Введите кол-во строк и столбцов массива: "); int arrowSize = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите максимальное значение элемента: "); int maxNumb = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите минимальное значчение элемента: "); int minNumb = int.Parse(Console.ReadLine());

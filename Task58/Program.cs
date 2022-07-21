@@ -1,12 +1,10 @@
 ﻿
 // Задача 58: Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
+Console.Clear();
 Console.WriteLine("Введите кол-во строк и столбцов массива: "); int arrowSize = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите максимальное значение элемента: "); int maxNumb = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите минимальное значчение элемента: "); int minNumb = int.Parse(Console.ReadLine());
 Console.WriteLine("Массив со случайными значениями 1: ");
-
-
-
 int[,] array = GetArray(arrowSize, maxNumb, minNumb);
 int[,] GetArray(int arrowSize, int maxNumb, int minNumb)
 {

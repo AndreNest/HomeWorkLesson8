@@ -1,7 +1,7 @@
 ﻿// Задача 56 
 // Задайте прямоугольный двумерный массив. 
 // Напишите программу, которая будет находить строку с наименьшей суммой элементов.
-
+Console.Clear();
 Console.WriteLine("Введите кол-во строк: "); int rows = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите кол-во столбцов: "); int colomns = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите максимальное значение элемента: "); int maxNumb = int.Parse(Console.ReadLine());

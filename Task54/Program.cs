@@ -1,6 +1,6 @@
 ﻿// // Задача 54: Задайте двумерный массив. Напишите программу, 
 // // которая упорядочит по убыванию элементы каждой строки двумерного массива.
-
+Console.Clear();
 Console.WriteLine("Введите кол-во строк: "); int rows = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите кол-во столбцов: "); int colomns = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите максимальное значение элемента: "); int maxNumb = int.Parse(Console.ReadLine());
